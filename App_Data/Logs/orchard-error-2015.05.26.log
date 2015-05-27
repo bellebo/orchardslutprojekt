@@ -1,0 +1,548 @@
+2015-05-26 11:04:08,430 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,457 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,467 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,468 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,512 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,516 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,527 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,528 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,535 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,536 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,548 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,549 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,556 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,559 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,568 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,569 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,582 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,583 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,594 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,595 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:04:08,602 [20] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:04:08,603 [20] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes?Options.Order=Downloads&page=2
+2015-05-26 11:08:31,463 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,464 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,467 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,469 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,477 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,478 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,485 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,486 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,500 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,501 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,514 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,515 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,523 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,524 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,531 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,532 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,544 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,545 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,557 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,558 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 11:08:31,566 [22] Orchard.Environment.DefaultAssemblyLoader - Default - Error loading assembly 'ExternalBlogAggregation'
+ http://localhost:24125/Packaging/Gallery/Themes
+System.IO.FileNotFoundException: Could not load file or assembly 'ExternalBlogAggregation' or one of its dependencies. The system cannot find the file specified.
+File name: 'ExternalBlogAggregation'
+   at System.Reflection.RuntimeAssembly._nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, Evidence assemblySecurity, RuntimeAssembly locationHint, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, Evidence assemblySecurity, RuntimeAssembly reqAssembly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean throwOnFileNotFound, Boolean forIntrospection, Boolean suppressSecurityChecks)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean forIntrospection)
+   at System.Reflection.RuntimeAssembly.InternalLoad(String assemblyString, Evidence assemblySecurity, StackCrawlMark& stackMark, Boolean forIntrospection)
+   at System.Reflection.Assembly.Load(String assemblyString)
+   at Orchard.Environment.DefaultAssemblyLoader.LoadWorker(String shortName, String fullName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 56
+   at Orchard.Environment.DefaultAssemblyLoader.<>c__DisplayClass4.<Load>b__2(String shortName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Orchard.Environment.DefaultAssemblyLoader.Load(String assemblyName) in z:\Builds\work\bd725928c3da365b\src\Orchard\Environment\IAssemblyLoader.cs:line 26
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+2015-05-26 11:08:31,567 [22] Orchard.Environment.Extensions.Compilers.DefaultExtensionCompiler - Default - Assembly reference 'ExternalBlogAggregation' for project '/Themes/OrchardProject.Net/OrchardProject.Net.csproj' cannot be loaded
+ http://localhost:24125/Packaging/Gallery/Themes
+2015-05-26 13:43:09,752 [34] Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator - Default - NullReferenceException thrown from IContentPartDriver by Orchard.Layouts.Drivers.LayoutPartDriver
+ http://localhost:24125/Admin/Contents/Create/Page
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Orchard.Layouts.Services.ElementFactory.Activate(ElementDescriptor descriptor, Action`1 initialize)
+   at Orchard.Layouts.Services.ElementManager.ActivateElement(ElementDescriptor descriptor, Action`1 initialize)
+   at Orchard.Layouts.Providers.BlueprintElementHarvester.<HarvestElements>b__8(<>f__AnonymousType7`2 <>h__TransparentIdentifier1)
+   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)
+   at System.Linq.Enumerable.<>c__DisplayClass12`3.<CombineSelectors>b__11(TSource x)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Orchard.Layouts.Providers.BlueprintElementHarvester.HarvestElements(HarvestElementsContext context)
+   at Orchard.Layouts.Services.ElementManager.<>c__DisplayClass7.<>c__DisplayClassc.<DescribeElements>b__3(ElementHarvester harvester)
+   at System.Linq.Enumerable.<SelectManyIterator>d__31`3.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Orchard.Layouts.Services.ElementManager.<>c__DisplayClass7.<DescribeElements>b__2(AcquireContext`1 acquireContext)
+   at Orchard.Caching.Cache`2.CreateEntry(TKey k, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 57
+   at Orchard.Caching.Cache`2.<>c__DisplayClass2.<Get>b__0(TKey k) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 19
+   at System.Collections.Concurrent.ConcurrentDictionary`2.AddOrUpdate(TKey key, Func`2 addValueFactory, Func`3 updateValueFactory)
+   at Orchard.Caching.Cache`2.Get(TKey key, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 17
+   at Orchard.Caching.DefaultCacheManager.Get[TKey,TResult](TKey key, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\DefaultCacheManager.cs:line 33
+   at Orchard.Layouts.Services.ElementManager.DescribeElements(DescribeElementsContext context)
+   at Orchard.Layouts.Services.ElementManager.<>c__DisplayClass10.<GetCategories>b__e(AcquireContext`1 acquireContext)
+   at Orchard.Caching.Cache`2.CreateEntry(TKey k, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 57
+   at Orchard.Caching.Cache`2.<>c__DisplayClass2.<Get>b__0(TKey k) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 19
+   at System.Collections.Concurrent.ConcurrentDictionary`2.AddOrUpdate(TKey key, Func`2 addValueFactory, Func`3 updateValueFactory)
+   at Orchard.Caching.Cache`2.Get(TKey key, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\Cache.cs:line 17
+   at Orchard.Caching.DefaultCacheManager.Get[TKey,TResult](TKey key, Func`2 acquire) in z:\Builds\work\bd725928c3da365b\src\Orchard\Caching\DefaultCacheManager.cs:line 33
+   at Orchard.Layouts.Services.ElementManager.GetCategories(DescribeElementsContext context)
+   at Orchard.Layouts.Services.LayoutEditorFactory.GetCategories(IContent content)
+   at Orchard.Layouts.Services.LayoutEditorFactory.GetConfigurationData(IContent content)
+   at Orchard.Layouts.Services.LayoutEditorFactory.Create(String layoutData, String sessionKey, Nullable`1 templateId, IContent content)
+   at Orchard.Layouts.Services.LayoutEditorFactory.Create(LayoutPart layoutPart)
+   at Orchard.Layouts.Drivers.LayoutPartDriver.<>c__DisplayClass12.<Editor>b__11()
+   at Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass15.<ContentShape>b__14(BuildShapeContext ctx) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:line 196
+   at Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass1b.<ContentShapeImplementation>b__1a(BuildShapeContext ctx) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:line 205
+   at Orchard.ContentManagement.Drivers.ContentShapeResult.ApplyImplementation(BuildShapeContext context, String displayType) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:line 45
+   at Orchard.ContentManagement.Drivers.ContentShapeResult.Apply(BuildEditorContext context) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:line 25
+   at Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator.<>c__DisplayClassd.<BuildEditor>b__c(IContentPartDriver driver) in z:\Builds\work\bd72015-05-26 16:33:58,399 [7] Orchard.Exceptions.DefaultExceptionPolicy - Default - An unexpected exception was caught
+ http://localhost:24125/Admin/Themes/Activate
+Orchard.OrchardException: Package not found: Orchard.Module.EmeraldElements.FlexSlider
+   at Orchard.Packaging.Services.PackageInstaller.Uninstall(String packageId, String applicationPath)
+   at Orchard.Packaging.Services.PackageUninstallHandler.UninstallPackage(String packageId)
+   at Orchard.Events.DelegateHelper.<>c__DisplayClass2b`2.<BuildAction>b__2a(Object target, Object[] p) in z:\Builds\work\bd725928c3da365b\src\Orchard\Events\DelegateHelper.cs:line 116
+   at Orchard.Events.DefaultOrchardEventBus.TryInvokeMethod(IEventHandler eventHandler, Type interfaceType, String messageName, String interfaceName, String methodName, IDictionary`2 arguments, IEnumerable& returnValue) in z:\Builds\work\bd725928c3da365b\src\Orchard\Events\DefaultOrchardEventBus.cs:line 80
+   at Orchard.Events.DefaultOrchardEventBus.TryNotifyHandler(IEventHandler eventHandler, String messageName, String interfaceName, String methodName, IDictionary`2 eventData, IEnumerable& returnValue) in z:\Builds\work\bd725928c3da365b\src\Orchard\Events\DefaultOrchardEventBus.cs:line 53
+2015-05-26 17:33:54,127 [30] Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator - Default - ArgumentNullException thrown from IContentPartDriver by Orchard.Search.Drivers.SearchSettingsPartDriver
+ http://localhost:24125/Admin/Settings/Search
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey,TElement](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at Orchard.Search.Drivers.SearchSettingsPartDriver.<>c__DisplayClassd.<Editor>b__7()
+   at Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass15.<ContentShape>b__14(BuildShapeContext ctx) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:line 196
+   at Orchard.ContentManagement.Drivers.ContentPartDriver`1.<>c__DisplayClass1b.<ContentShapeImplementation>b__1a(BuildShapeContext ctx) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentPartDriver.cs:line 205
+   at Orchard.ContentManagement.Drivers.ContentShapeResult.ApplyImplementation(BuildShapeContext context, String displayType) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:line 45
+   at Orchard.ContentManagement.Drivers.ContentShapeResult.Apply(BuildEditorContext context) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\ContentShapeResult.cs:line 25
+   at Orchard.ContentManagement.Drivers.Coordinators.ContentPartDriverCoordinator.<>c__DisplayClass10.<UpdateEditor>b__f(IContentPartDriver driver) in z:\Builds\work\bd725928c3da365b\src\Orchard\ContentManagement\Drivers\Coordinators\ContentPartDriverCoordinator.cs:line 65
+   at Orchard.InvokeExtensions.Invoke[TEvents](IEnumerable`1 events, Action`1 dispatch, ILogger logger) in z:\Builds\work\bd725928c3da365b\src\Orchard\InvokeExtensions.cs:line 17
+2015-05-26 17
